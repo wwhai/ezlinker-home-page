@@ -13,8 +13,8 @@
         <img :src="require('./rvcode_qq.png')" alt="">
       </div>
       <div style="padding: 0 16px">
-        <hr>
-        <a class="btn-donate" href="/views/other/donate.html">打赏</a>
+        <!-- <hr>
+        <a class="btn-donate" href="/views/other/donate.html">打赏</a> -->
       </div>
     </div>
   </transition>

@@ -6,7 +6,7 @@
         :style="heroImageStyle || {}"
         :src="$withBase($frontmatter.heroImage)"
         alt="hero">
-      <!-- <h1>{{ $frontmatter.heroText || $title }}</h1> -->
+      <h1>{{ $frontmatter.heroText || $title }}</h1>
       <p class="description">{{ $description }}</p>
 
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
