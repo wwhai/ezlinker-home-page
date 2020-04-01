@@ -8,7 +8,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
         ['meta', { name: 'author', content: 'reco_luan' }],
-        ['meta', { name: 'keywords', content: 'vuepress,reco,reco_luan,vuepress-reco,vuepress-theme-reco,theme,blog,主题' }],
+        ['meta', { name: 'keywords', content: '物联网,ezlinker,easylinker' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#42b983' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],

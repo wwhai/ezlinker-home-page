@@ -76,9 +76,7 @@ export default {
     const year = date.getFullYear()
     const mounth = date.getMonth() + 1
     const day = date.getDate()
-    // this.npmPackageDownloads('vuepress-theme-reco', `2018-09-12:${year}-${mounth}-${day}`).then(res => {
-    //   this.downloads = this.toThousandslsFilter(res)
-    // })
+
   },
 
   methods: {
@@ -93,30 +91,6 @@ export default {
       const orderPrice2 = (+IntPart || 0).toString().replace(/^-?\d+/g, m => m.replace(/(?=(?!\b)(\d{3})+$)/g, ',')) + FloatPart
       return orderPrice2
     },
-
-    // npmPackageDownloads (packages, dateRange) {
-    //   packages = this._handlePackages(packages)
-    //   dateRange = this._handleDateRange(dateRange)
-    //   return this._getDownloadsOfDateRange(packages, dateRange)
-    // },
-
-    // async _getDownloadsOfDateRange (packages, dateRange) {
-    //   let downloads = 0
-    //   if (Array.isArray(dateRange)) {
-    //     let fetchPromise = []
-    //     dateRange.map(item => {
-    //       fetchPromise.push(this._fetch(packages, item))
-    //     })
-    //     const result = await Promise.all(fetchPromise)
-    //     downloads = result.reduce((all, next) => {
-    //       return all + next.downloads
-    //     }, 0)
-    //     return downloads
-    //   }
-    //   const result = await this._fetch(packages, dateRange)
-    //   downloads = result.downloads
-    //   return downloads
-    // },
 
     _fetch (packages, dateRange) {
       const BASE_URI = 'https://api.npmjs.org/downloads/point/'

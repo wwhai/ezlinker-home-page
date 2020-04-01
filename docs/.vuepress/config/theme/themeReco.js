@@ -1,6 +1,6 @@
 module.exports = {
     type: 'HomePageOne',
-    logo: '/icon_vuepress_reco.png',
+    logo: '/logo-c.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -23,14 +23,14 @@ module.exports = {
             // debug: false // Set debug to true if you want to inspect the dropdown
     },
     // valine 设置
-    valineConfig: {
-        appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
-        appKey: 'Js91M9DfM9vPwVaUj7xdkbxh',
-        placeholder: '填写邮箱可以收到回复提醒哦！',
-        verify: true, // 验证码服务
-        // notify: true, // 
-        recordIP: true
-    },
+    // valineConfig: {
+    //     appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
+    //     appKey: 'Js91M9DfM9vPwVaUj7xdkbxh',
+    //     placeholder: '填写邮箱可以收到回复提醒哦！',
+    //     verify: true, // 验证码服务
+    //     // notify: true, // 
+    //     recordIP: true
+    // },
     // vssueConfig: {
     //   admins: ['recoluan'],
     //   platform: 'github',

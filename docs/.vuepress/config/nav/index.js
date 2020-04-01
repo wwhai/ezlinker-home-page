@@ -5,14 +5,17 @@ module.exports = {
             items: [{
                     text: '发布版本',
                     items: [
-                        { text: '1.0', link: '/views/1.0/' }
+                        { text: '😍1.0', link: '/views/1.0/' }
                     ],
                 },
                 {
                     text: '生态项目',
                     items: [
-                        { text: 'EZ-EMQX', link: '/views/ezemqx/' }
-                    ],
+                        { text: '❤️EZ-EMQX', link: '/views/ezemqx/' },
+                        { text: '🏧插件市场', link: '/views/pluginmarket/' },
+                        { text: '🔆开源硬件', link: '/views/openhardware/' }
+
+                    ]
                 }
             ]
 
