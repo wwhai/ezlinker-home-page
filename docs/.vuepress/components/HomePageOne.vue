@@ -11,11 +11,10 @@
       <p class="description">{{ $description }}</p>
 
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
-      <!-- <img class="banner" src="./images/blog.svg" alt /> -->
-      <img class="banner" src="./images/1.png" alt />
+
       <hr>
     </section>
-    <section class="wish">
+    <!-- <section class="wish">
       <div class="wish-inner">
         <div class="img-wrapper">
           <img src="./images/2.png" alt />
@@ -26,28 +25,7 @@
         </div>
       </div>
     </section>
-    <section class="wish area">
-      <div class="wish-inner">
-        <div class="text-wrapper">
-          <h1>{{ features[1].title }}</h1>
-          <p class="description">{{ features[1].details }}</p>
-        </div>
-        <div class="img-wrapper">
-          <img src="./images/3.png" alt />
-        </div>
-      </div>
-    </section>
-    <section class="wish">
-      <div class="wish-inner">
-        <div class="img-wrapper">
-          <img src="./images/4.png" alt />
-        </div>
-        <div class="text-wrapper">
-          <h1>{{ features[2].title }}</h1>
-          <p class="description">{{ features[2].details }}</p>
-        </div>
-      </div>
-    </section>
+     -->
     <section class="md-content-wrapper">
       <Content />
     </section>
@@ -167,7 +145,6 @@ export default {
 <style lang="stylus" scoped>
 .home-page-one-wrapper {
   padding-top: 3.4rem;
-  background-image: url('./images/bg.jpg');
   background-attachment: fixed;
 
   section {
