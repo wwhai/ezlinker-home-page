@@ -12,10 +12,7 @@
         <h5>欢迎加入QQ交流群 🎉🎉🎉</h5>
         <img :src="require('./rvcode_qq.png')" alt="">
       </div>
-      <div style="padding: 0 16px">
-        <!-- <hr>
-        <a class="btn-donate" href="/views/other/donate.html">打赏</a> -->
-      </div>
+
     </div>
   </transition>
 </template>
@@ -59,7 +56,7 @@ export default {
     box-sizing border-box
     padding 10px
     margin 0
-    background $accentColor
+    background #009999
     color #fff
     i 
       color #fff

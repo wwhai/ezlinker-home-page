@@ -11,25 +11,27 @@ home: true
 isShowTitleInHome: true
 actionText: 更多信息
 actionLink: /views/about/index.html
-features:
-- title: 人性化操作
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题。
-- title: 轻量级部署
-  details: 帮助更多的朋友节省时间去用心书写内容，而不是仅仅配置一个博客去孤芳自赏。
-- title: 可视化布局
-  details: 吸引更多的朋友参与到开发中来，继续强大功能。
 ---
 
 ## 更新记录
+::: tip
+**[2020-04-20]** 更新 `0.0.6`
+
+1. 增加RawTCP协议入口
+2. 增加RawUDP协议入口
+---
+
+:::
 
 ::: tip
-**[2020-03-16]** 更新 `0.0.5`
+**[2020-03-20]** 更新 `0.0.5`
 
 1. 增加HTTP协议入口
 2. 增加MQTT协议入口
 3. 增加COAP协议入口
 4. 增加动态界面布局效果
 5. 发布Docker镜像V1.0版本
+6. 优化代码，删除一些无用文件
 ---
 
 :::
@@ -43,24 +45,9 @@ features:
 
 **拉取镜像docker**
 
-```bash
-docker run \
-# WEB入口
--p  22500:80 \
-# MQTT端口
--p  21883:1883 \
-# WebSocket端口
--p  22501:2501 \
-# COAP端口
--p  22506:2506 \
-# 基于TCP轻量级协议:Trap端口
--p  21884:1884 \
-# 基于UDP轻量级协议:Trap端口
--p  21885:1885 \
---name ezlinker  \
---restart=always \
--d \
-ezlinker \
+```bash 
+wget  https://github.com/wwhai/ezlinker/blob/master/resources/docker/ezlinker-app-release/docker-compose.yml
+docker-compose up -d .
 ```
 
 **进入系统**

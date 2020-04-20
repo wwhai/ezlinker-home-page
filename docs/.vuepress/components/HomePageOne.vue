@@ -12,7 +12,7 @@
 
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
 
-      <hr>
+      <hr/>
     </section>
     <!-- <section class="wish">
       <div class="wish-inner">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </section>
-     -->
+    -->
     <section class="md-content-wrapper">
       <Content />
     </section>
@@ -62,81 +62,7 @@ export default {
   },
 
   methods: {
-    toThousandslsFilter(num) {
-      const numStr = String(num);
-      if (numStr === "" || numStr == undefined) {
-        return "";
-      }
-      const IntPart = /\./g.test(numStr)
-        ? numStr.slice(0, numStr.indexOf("."))
-        : numStr;
-      const FloatPart = /\./g.test(numStr)
-        ? numStr.substring(numStr.indexOf("."))
-        : "";
-
-      const orderPrice2 =
-        (+IntPart || 0)
-          .toString()
-          .replace(/^-?\d+/g, m => m.replace(/(?=(?!\b)(\d{3})+$)/g, ",")) +
-        FloatPart;
-      return orderPrice2;
-    },
-
-    _fetch(packages, dateRange) {
-      const BASE_URI = "https://api.npmjs.org/downloads/point/";
-      return new Promise((resolve, reject) => {
-        fetch(`${BASE_URI}${dateRange}/${packages}`)
-          .then(this._parseJSON)
-          .then(res => {
-            resolve(res);
-          })
-          .catch(err => {
-            reject(err);
-          });
-      });
-    },
-
-    _parseJSON(response) {
-      return response.json();
-    },
-
-    _handleDateRange(dateRange) {
-      const index = dateRange.indexOf(":");
-      if (index > -1) {
-        const dr = dateRange.split(":");
-        const newDateRange = dr;
-        const YEAR = 365 * 24 * 60 * 60 * 1000;
-        const DATE_RANGE =
-          new Date(dr[1]).getTime() - new Date(dr[0]).getTime();
-        const year = parseInt(DATE_RANGE / YEAR);
-        if (year > 0) {
-          for (let i = 0; i < year; i++) {
-            const date = this._getDate(newDateRange[i]);
-            newDateRange.splice(i + 1, 0, date);
-          }
-          for (let i = 0, length = newDateRange.length; i < length - 1; i++) {
-            newDateRange[i] = `${newDateRange[i]}:${newDateRange[i + 1]}`;
-          }
-          newDateRange.length = year + 1;
-          return newDateRange;
-        }
-        return dateRange;
-      }
-      return dateRange;
-    },
-
-    _getDate(date) {
-      const dateArr = date.split("-");
-      dateArr[0] = Number(dateArr[0]) + 1;
-      return dateArr.join("-");
-    },
-
-    _handlePackages(packages) {
-      if (Array.isArray(packages)) {
-        return `-,${packages.join(",")}`;
-      }
-      return packages;
-    }
+   
   }
 };
 </script>
@@ -144,6 +70,17 @@ export default {
 
 <style lang="stylus" scoped>
 .home-page-one-wrapper {
+  content: "";
+  width: 100%;
+  height: 500px;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-image: url('./images/header.jpg');
   padding-top: 3.4rem;
   background-attachment: fixed;
 
@@ -156,11 +93,16 @@ export default {
       text-align: center;
 
       h1 {
+        font-size :50px;
         margin-top: 8rem;
+        color : #FFFFFF;
       }
 
       p {
         margin-bottom: 2rem;
+        color :#330033;
+        font-size :20px;
+
       }
 
       .btn-about {
@@ -168,51 +110,14 @@ export default {
         display: inline-block;
         padding: 0.6rem 1.2rem;
         border-radius: 0.25rem;
-        background: $accentColor;
-        color: #fff;
+        background: #FFD700;
+        color: #000000;
         font-size: 1rem;
       }
 
       .banner {
         display: block;
         width: 100%;
-      }
-    }
-
-    &.wish {
-      overflow: hidden;
-
-      &.area {
-        background: var(--code-color);
-      }
-
-      .wish-inner {
-        box-sizing: border-box;
-        margin: 0 auto;
-        padding: 2rem;
-        max-width: 56rem;
-        width: 100%;
-        min-height: 25rem;
-        display: flex;
-        align-items: center;
-
-        > div {
-          flex: auto;
-
-          &.img-wrapper {
-            max-width: 22rem;
-
-            img {
-              display: block;
-              width: 100%;
-            }
-          }
-
-          &.text-wrapper {
-            box-sizing: border-box;
-            padding: 0 2rem;
-          }
-        }
       }
     }
   }
