@@ -5,7 +5,8 @@ module.exports = {
             items: [{
                     text: '发布版本',
                     items: [
-                        { text: 'V-1.0', link: '/views/1.0/' }
+                        { text: 'V-1.0使用文档', link: '/views/1.0/' },
+                        { text: 'V-1.0开发文档', link: '/views/1.0-dev/' }
                     ],
                 },
                 {
