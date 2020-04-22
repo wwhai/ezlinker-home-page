@@ -48,6 +48,24 @@ Creating ezlinker_nginx ... done
 以上步骤没问题，直接打开:http://[IP]:22500/,即可看到登陆界面:
 <img src="./images/2.png" alt="NOT FOND" width="900" align="bottom" />
 默认的登陆用户：ezlinker，密码：password。
+### 3.1 系统首页
+<img src="./images/11.png" alt="NOT FOND" width="900" align="bottom" />
+
+### 3.2 项目管理
+<img src="./images/12.png" alt="NOT FOND" width="900" align="bottom" />
+
+### 3.3 产品管理
+<img src="./images/13.png" alt="NOT FOND" width="900" align="bottom" />
+
+### 3.4 设备管理
+<img src="./images/14.png" alt="NOT FOND" width="900" align="bottom" />
+
+### 3.5 其他功能
+::: warning
+近期我们比较忙，业余时间较少，开发进度比较缓慢，所以目前暂时只放出截图，但是没有实际功能，如果有兴趣参加的，请私聊联系我们，加入开源团队，加速项目推进。本项目正在持续开发中，我们没有放弃。敬请期待........
+:::
+
+
 ## 4. 产品理念
 ### 4.1 设计思路
 EZLinker针对企业用户开发,私有化部署场景下运营,针对中小企业在物联网项目下的技术开发耗时耗力或者技术短板的痛点,推出一个一体化,简单化,轻量级的解决方案.产品的用户群体为企业用户,或者个人用户,作用领域为物联网项目开发,管理,运营层面.本产品以开源协议的形式发布,推崇商业友好的ApacheV2开源协议,所有贡献者共享代码版权.

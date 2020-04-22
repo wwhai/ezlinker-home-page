@@ -3,10 +3,11 @@ module.exports = {
             text: '文档',
             icon: 'reco-api',
             items: [{
-                    text: '发布版本',
+                    text: 'EZLINKER发布',
                     items: [
-                        { text: 'V-1.0使用文档', link: '/views/1.0/' },
-                        { text: 'V-1.0开发文档', link: '/views/1.0-dev/' }
+                        { text: 'V-1.0用户使用文档', link: '/views/1.0/' },
+                        { text: 'V-1.0后端开发文档', link: '/views/1.0-dev/' },
+                        { text: 'V-1.0前端开发文档', link: '/views/1.0-dev-front/' }
                     ],
                 },
                 {
