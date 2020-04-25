@@ -9,7 +9,7 @@
         </i>
       </h4>
       <div class="notification-content">
-        <h5>欢迎加入QQ交流群 🎉🎉🎉</h5>
+        <h5>🎉欢迎加入QQ交流群 🎉</h5>
         <img :src="require('./rvcode_qq.png')" alt="">
       </div>
 
