@@ -1,5 +1,6 @@
 <template>
   <article class="home-page-one-wrapper">
+
     <section class="description">
       <img
         v-if="$frontmatter.heroImage"
@@ -14,8 +15,52 @@
 
       <hr />
     </section>
-    <div align="center">EZLINKER的优势</div>
-
+    <!-- <div class="provide" align="center">
+      <div class="title-box">
+        <div class="title">
+          We provide solutions to grow your business
+        </div>
+        <div class="desc"> 
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </div>
+      </div>
+      <div class="list">
+                <div class="item">
+          <div class="icon">
+            <img src="./s1.png"/>
+          </div>
+          <div class="title">
+            Global NetWork
+          </div>
+          <div class="desc">
+            Our goal is to help our companies maintain or achieve best in class positions. Build an online presence with this professional bootstrap 4 template.
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="provide">
+      <div class="title-box">
+        <div class="title">
+          We provide solutions to grow your business
+        </div>
+        <div class="desc"> 
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </div>
+      </div>
+      <div class="list">
+        <div class="item">
+          <div class="icon">
+            <!-- <img src="./s1.png"/> -->
+          </div>
+          <div class="title">
+            Global NetWork
+          </div>
+          <div class="desc">
+            Our goal is to help our companies maintain or achieve best in class positions. Build an online presence with this professional bootstrap 4 template.
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <section class="md-content-wrapper">
@@ -25,11 +70,78 @@
     <footer
       style="background-color:#333;height:300px;color:#FFFFFF;padding-left:20px;padding-right:20px;padding-top:20px;"
     >
-      <p>EZLINKER团队</p>
+      <!-- <p>EZLINKER团队</p>
       <p>
         联系我们:
         <a href="ezlinker@qq.com">ezlinker@qq.com</a>.
-      </p>
+      </p> -->
+      <div class="container">
+        <div class="col">
+          <div class="title">
+          Contact Information
+          </div>
+          <div class="item">
+            <span class="name">Address</span> : #135 block, Barnard St. Brooklyn, NY 10036, USA
+          </div>
+          <div class="item">
+            <span class="name">Address</span> : #135 block, Barnard St. Brooklyn, NY 10036, USA
+          </div>
+          <div class="item">
+            <span class="name">Email</span> : example@mail.com
+          </div>
+        </div>
+        <div class="col link">
+          <div class="title">
+          Company
+          </div>
+          <div class="item">
+            About
+          </div>
+          <div class="item">
+            Blog Posts
+          </div>
+          <div class="item">
+            FAQ
+          </div>
+          <div class="item">
+            Pricing
+          </div>
+        </div>
+        <div class="col link">
+                    <div class="title">
+          Company
+          </div>
+          <div class="item">
+            About
+          </div>
+          <div class="item">
+            Blog Posts
+          </div>
+          <div class="item">
+            FAQ
+          </div>
+          <div class="item">
+            Pricing
+          </div>
+        </div>
+        <div class="col link">
+                    <div class="title">
+          Company
+          </div>
+          <div class="item">
+            About
+          </div>
+          <div class="item">
+            Blog Posts
+          </div>
+          <div class="item">
+            FAQ
+          </div>
+          <div class="item">
+            Pricing
+          </div>
+        </div>
+      </div>
     </footer>
   </article>
 </template>
@@ -112,6 +224,42 @@ export default {
   padding-top: 3.4rem;
   background-attachment: fixed;
 
+  .provide {
+    .title-box{
+      text-align: center;
+      .title{
+        font-size: 35px;
+      }
+      .desc{
+        font-size: 16px;
+        color: #6c757d;
+      }
+    }
+    .list{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .item{
+        box-shadow: var(--card-box-shadow);
+        border-radius: var(--card-curve);
+        transition: 0.3s ease-in;
+        padding:24px;
+        .icon{
+          height: 80px;
+          img{
+            height: 100%;
+          }
+        }
+        .title{
+          font-size:26px;
+        }
+        .desc{
+          font-size:15px;
+        }
+      }
+    }
+  }
+
   section {
     &.description {
       box-sizing: border-box;
@@ -147,6 +295,36 @@ export default {
         width: 100%;
       }
     }
+  }
+
+
+  footer{
+
+    .container{
+      display: flex;
+      justify-content: space-around;
+      .col{
+      font-size:16px;
+      .title{
+        font-size: 20px;
+      }
+      .item{
+        color: #6c757d;
+        .name {
+          font-weight: bold;
+        }
+      }
+    }
+    .link {
+      .item{
+        &:hover{
+          text-decoration:underline;
+          cursor: pointer;
+        }
+      }
+    }
+    }
+
   }
 }
 
