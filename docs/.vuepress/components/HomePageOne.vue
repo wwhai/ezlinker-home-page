@@ -12,23 +12,25 @@
 
       <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
 
-      <hr/>
+      <hr />
     </section>
-    <!-- <section class="wish">
-      <div class="wish-inner">
-        <div class="img-wrapper">
-          <img src="./images/2.png" alt />
-        </div>
-        <div class="text-wrapper">
-          <h1>{{ features[0].title }}</h1>
-          <p class="description">{{ features[0].details }}</p>
-        </div>
-      </div>
-    </section>
-    -->
+    <div align="center">EZLINKER的优势</div>
+
+
+
     <section class="md-content-wrapper">
       <Content />
     </section>
+
+    <footer
+      style="background-color:#333;height:300px;color:#FFFFFF;padding-left:20px;padding-right:20px;padding-top:20px;"
+    >
+      <p>EZLINKER团队</p>
+      <p>
+        联系我们:
+        <a href="ezlinker@qq.com">ezlinker@qq.com</a>.
+      </p>
+    </footer>
   </article>
 </template>
 
@@ -61,16 +63,42 @@ export default {
     const day = date.getDate();
   },
 
-  methods: {
-   
-  }
+  methods: {}
 };
 </script>
 
 
 <style lang="stylus" scoped>
+.card {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.card:hover {
+  margin-top: 0px;
+  box-shadow: 5px 8px 5px #778899;
+}
+
+.header {
+  background-color: #4caf50;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.body {
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
 .home-page-one-wrapper {
-  content: "";
+  content: '';
   width: 100%;
   height: 500px;
   opacity: 0.9;
@@ -79,7 +107,7 @@ export default {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
   background-image: url('./images/header.jpg');
   padding-top: 3.4rem;
   background-attachment: fixed;
@@ -93,16 +121,15 @@ export default {
       text-align: center;
 
       h1 {
-        font-size :50px;
+        font-size: 50px;
         margin-top: 8rem;
-        color : #FFFFFF;
+        color: #FFFFFF;
       }
 
       p {
         margin-bottom: 2rem;
-        color :#330033;
-        font-size :20px;
-
+        color: #330033;
+        font-size: 20px;
       }
 
       .btn-about {
@@ -139,6 +166,7 @@ export default {
       }
 
       &.md-content-wrapper {
+        width: 100%;
         padding: 0;
       }
 
