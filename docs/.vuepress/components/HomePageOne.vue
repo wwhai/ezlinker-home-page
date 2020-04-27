@@ -114,9 +114,9 @@
     </div>
 
 
-    <section class="md-content-wrapper">
+    <!-- <section class="md-content-wrapper">
       <Content />
-    </section>
+    </section> -->
 
     <footer
     >
