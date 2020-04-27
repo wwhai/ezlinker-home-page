@@ -1,14 +1,6 @@
 ---
 home: true
-# heroImage: '/ezlinker.png'
-# heroImageStyle: {
-#   maxWidth: '200px',
-#   width: '100%',
-#   display: block,
-#   margin: '5rem auto 2rem',
-#   borderRadius: '1rem',
-# }
-isShowTitleInHome: true
+isShowTitleInHome: false
 actionText: 更多信息
 actionLink: /views/about/index.html
 ---
