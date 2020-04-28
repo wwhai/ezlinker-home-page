@@ -1,50 +1,12 @@
 <template>
   <article class="home-page-one-wrapper">
 
-    <!-- <section class="description">
-      <img
-        v-if="$frontmatter.heroImage"
-        :style="heroImageStyle || {}"
-        :src="$withBase($frontmatter.heroImage)"
-        alt="hero"
-      />
-      <h1>{{ $frontmatter.heroText || $title }}</h1>
-      <p class="description">{{ $description }}</p>
-
-      <router-link class="btn-about" :to="$frontmatter.actionLink">{{ $frontmatter.actionText }}</router-link>
-
-      <hr />
-    </section> -->
-    <!-- <div class="provide" align="center">
-      <div class="title-box">
-        <div class="title">
-          We provide solutions to grow your business
-        </div>
-        <div class="desc"> 
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
-        </div>
-      </div>
-      <div class="list">
-                <div class="item">
-          <div class="icon">
-            <img src="./s1.png"/>
-          </div>
-          <div class="title">
-            Global NetWork
-          </div>
-          <div class="desc">
-            Our goal is to help our companies maintain or achieve best in class positions. Build an online presence with this professional bootstrap 4 template.
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="banner">
       <div class="container">
         <div class="left col-md-5">
-          <h1>Meet with us to success dream business</h1>
-          <p>Making use of the respective industries and our team works. Build an online presence with this professional 
-            bootstrap 4 template.</p>
-          <a class="btn" href="#">Get Started</a>
+          <h1>EZLINKER</h1>
+          <p>轻量级，高性能的物联网业务解决方案.</p>
+          <a class="btn" href="#">开始了解</a>
         </div>
         <div class="right  col-md-7">
           <img src="./images/main.jpg"/>
@@ -55,10 +17,10 @@
     <div class="provide">
       <div class="title-box">
         <div class="title">
-          We provide solutions to grow your business
+          EZLINKER专注的领域
         </div>
         <div class="desc"> 
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+         EZLINKER专注于私有化物联网部署方案和自底而上的业务体系。
         </div>
       </div>
       <div class="list">
@@ -70,10 +32,10 @@
                 <img src="./images/s1.png" alt="mixureSecure">
               </div>
               <div class="title">
-                Global NetWork
+                多平台安装
               </div>
               <div class="desc">
-                Our goal is to help our companies maintain or achieve best in class positions. Build an online presence with this professional bootstrap 4 template.
+                EZLINKER支持多种操作系统平台，轻量级部署，开箱即用.
               </div>
             </div>
           </div>
@@ -83,13 +45,13 @@
             <div class="s-block p-lg-4 p-3">
               <div class="icon">
                 <!-- <img src="./s1.png"/> -->
-                <img src="./images/s1.png" alt="mixureSecure">
+                <img src="./images/s2.png" alt="mixureSecure">
               </div>
               <div class="title">
-                Global NetWork
+               高性能网关
               </div>
               <div class="desc">
-                Our goal is to help our companies maintain or achieve best in class positions. Build an online presence with this professional bootstrap 4 template.
+                EZLINKER拥有高性能物联网接入网关，让物联网通信更加可靠安全.
               </div>
             </div>
           </div>
@@ -99,13 +61,13 @@
             <div class="s-block p-lg-4 p-3">
               <div class="icon">
                 <!-- <img src="./s1.png"/> -->
-                <img src="./images/s1.png" alt="mixureSecure">
+                <img src="./images/s3.png" alt="mixureSecure">
               </div>
               <div class="title">
-                Global NetWork
+                容器化部署
               </div>
               <div class="desc">
-                Our goal is to help our companies maintain or achieve best in class positions. Build an online presence with this professional bootstrap 4 template.
+                EZLINKER派生出各种领域的解决方案，最终形成APP，一键部署，轻松使用.
               </div>
             </div>
           </div>
@@ -114,52 +76,40 @@
     </div>
 
 
-    <!-- <section class="md-content-wrapper">
-      <Content />
-    </section> -->
+    <footer >
 
-    <footer
-    >
-      <!-- <p>EZLINKER团队</p>
-      <p>
-        联系我们:
-        <a href="ezlinker@qq.com">ezlinker@qq.com</a>.
-      </p> -->
       <div class="container">
         <div class="col col-md-6">
           <div class="title">
-          Contact Information
+          联系我们
           </div>
           <div class="item">
-            <span class="name">Address</span> : #135 block, Barnard St. Brooklyn, NY 10036, USA
+            <span class="name">地址</span> :
           </div>
           <div class="item">
-            <span class="name">Address</span> : #135 block, Barnard St. Brooklyn, NY 10036, USA
+            <span class="name">电话</span> :
           </div>
           <div class="item">
-            <span class="name">Email</span> : example@mail.com
+            <span class="name">邮箱</span> : info@EZLINKER.com
           </div>
         </div>
         <div class="col link col-md-4">
           <div class="title">
-          Company
+          用户区域
           </div>
           <div class="item">
-            About
+            QQ交流
           </div>
           <div class="item">
-            Blog Posts
+            博客
           </div>
           <div class="item">
-            FAQ
-          </div>
-          <div class="item">
-            Pricing
+            社区
           </div>
         </div>
         <div class="col link col-md-4">
                     <div class="title">
-          Company
+          生态项目
           </div>
           <div class="item">
             About
@@ -169,26 +119,20 @@
           </div>
           <div class="item">
             FAQ
-          </div>
-          <div class="item">
-            Pricing
           </div>
         </div>
         <div class="col link col-md-4">
                     <div class="title">
-          Company
+          合作企业
           </div>
           <div class="item">
-            About
+            中飞科技
           </div>
           <div class="item">
-            Blog Posts
+            众瑞科技
           </div>
           <div class="item">
-            FAQ
-          </div>
-          <div class="item">
-            Pricing
+            闪麟科技
           </div>
         </div>
       </div>
@@ -260,19 +204,6 @@ export default {
 }
 
 .home-page-one-wrapper {
-  // content: '';
-  // width: 100%;
-  // height: 500px;
-  // opacity: 0.9;
-  // top: 0;
-  // left: 0;
-  // bottom: 0;
-  // right: 0;
-  // position: absolute;
-  // z-index: -1;
-  // background-image: url('./images/header.jpg');
-  // padding-top: 3.4rem;
-  // background-attachment: fixed;
 
   .banner{
     padding: 58px 0 48px;
@@ -379,42 +310,6 @@ export default {
     }
   }
 
-  section {
-    &.description {
-      box-sizing: border-box;
-      margin: 0 auto 6rem;
-      max-width: 46rem;
-      width: 100%;
-      text-align: center;
-
-      h1 {
-        font-size: 50px;
-        margin-top: 8rem;
-        color: #FFFFFF;
-      }
-
-      p {
-        margin-bottom: 2rem;
-        color: #330033;
-        font-size: 20px;
-      }
-
-      .btn-about {
-        margin: 2rem 0;
-        display: inline-block;
-        padding: 0.6rem 1.2rem;
-        border-radius: 0.25rem;
-        background: #FFD700;
-        color: #000000;
-        font-size: 1rem;
-      }
-
-      .banner {
-        display: block;
-        width: 100%;
-      }
-    }
-  }
 
 
   footer{
