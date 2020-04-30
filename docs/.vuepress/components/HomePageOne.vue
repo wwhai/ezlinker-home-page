@@ -167,7 +167,7 @@
       </div>
     </div>
 
-<<<<<<< HEAD
+
     <!-- <section class="md-content-wrapper">
       <Content />
     </section> -->
@@ -204,9 +204,6 @@
         联系我们:
         <a href="ezlinker@qq.com">ezlinker@qq.com</a>.
       </p> -->
-
-    <footer >
-
       <div class="container">
         <div class="col col-md-6">
           <div class="title">
