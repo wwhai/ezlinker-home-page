@@ -112,14 +112,130 @@
         </div>
       </div>
     </div>
-
+    <div class="summary">
+      <div class="container">
+        <div class="title-box">
+          <div class="title">
+            Marketing solutions for your business
+          </div>
+          <div class="desc">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+          </div>
+        </div>
+        <div class="list">
+          <div class="item col-md-6 ">
+            <div class="left col-sm-3">
+              <span class="icon iconfont icon-icon-test"></span>
+            </div>
+            <div class="right col-sm-9 mt-sm-0">
+              <div class="title">
+                Marketing
+              </div>
+              <div class="desc">
+                  It is a long established fact that a reader will be distracted by the readable content.
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-6 ">
+            <div class="left col-sm-3">
+              <span class="icon iconfont icon-icon-test"></span>
+            </div>
+            <div class="right col-sm-9 mt-sm-0">
+              <div class="title">
+                Marketing
+              </div>
+              <div class="desc">
+                  It is a long established fact that a reader will be distracted by the readable content.
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-6 ">
+            <div class="left col-sm-3">
+              <span class="icon iconfont icon-icon-test"></span>
+            </div>
+            <div class="right col-sm-9 mt-sm-0">
+              <div class="title">
+                Marketing
+              </div>
+              <div class="desc">
+                  It is a long established fact that a reader will be distracted by the readable content.
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-6 ">
+            <div class="left col-sm-3">
+              <span class="icon iconfont icon-icon-test"></span>
+            </div>
+            <div class="right col-sm-9 mt-sm-0">
+              <div class="title">
+                Marketing
+              </div>
+              <div class="desc">
+                  It is a long established fact that a reader will be distracted by the readable content.
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-6 ">
+            <div class="left col-sm-3">
+              <span class="icon iconfont icon-icon-test"></span>
+            </div>
+            <div class="right col-sm-9 mt-sm-0">
+              <div class="title">
+                Marketing
+              </div>
+              <div class="desc">
+                  It is a long established fact that a reader will be distracted by the readable content.
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-6">
+            <div class="left col-sm-3">
+              <span class="icon iconfont icon-icon-test"></span>
+            </div>
+            <div class="right col-sm-9 mt-sm-0">
+              <div class="title">
+                Marketing
+              </div>
+              <div class="desc">
+                  It is a long established fact that a reader will be distracted by the readable content.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- <section class="md-content-wrapper">
       <Content />
     </section> -->
-
-    <footer
-    >
+    <div class="company">
+      <div class="container">
+        <div class="title">
+          Over 16,000 Companies that trust our amazing product
+        </div>
+        <div class="list">
+          <div class="img-box">
+            <img class="icon" src="./images/company-logo.png" />
+          </div>
+          <div class="img-box">
+            <img class="icon" src="./images/company-logo.png" />
+          </div>
+          <div class="img-box">
+            <img class="icon" src="./images/company-logo.png" />
+          </div>
+          <div class="img-box">
+            <img class="icon" src="./images/company-logo.png" />
+          </div>
+          <div class="img-box">
+            <img class="icon" src="./images/company-logo.png" />
+          </div>
+          <div class="img-box">
+            <img class="icon" src="./images/company-logo.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
       <!-- <p>EZLINKER团队</p>
       <p>
         联系我们:
@@ -231,6 +347,8 @@ export default {
 
 
 <style lang="stylus" scoped>
+@import  "./css/iconfont.css";
+
 .card {
   cursor: pointer;
   margin-top: 10px;
@@ -378,7 +496,84 @@ export default {
       }
     }
   }
+  .summary{
+    background-color: #fafafa;
+    padding: 3rem 0;
+    .container{
+      margin:0 auto;
+      .title-box{
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+        .title{
+          color: #0f0f1A;
+          font-size: 35px;
+        }
+        .desc{
+          margin: 16px 0;
+          font-size: 16px;
+          color: #6c757d;
+        }
+      }
+      .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .item{
+          margin-top: 30px;
+          background-color: white;
+          padding: 2rem 1rem;
+          box-shadow: 1px 2px 6px 1px rgba(53, 54, 102, 0.08);
+          border-radius: 6px;
+          display: flex;
+          justify-content: space-around;
+          &:hover{
+            box-shadow: 0px 0px 8px rgba(53, 54, 102, 0.2);
+            .left{
+              background-color: #151965
+              .icon{
+                color: white;
+              }
+            }
+            .right{
+              .title{
+                color: #ff8556;
+              }
+            }
+          }
+          .left{
+        
+            background: #fff;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            line-height: 100px;
+            border-radius: 50%;
+            box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
+            text-align: center;
+            .icon{
+              color: #151965;
+              font-size: 40px;
+            }
+          }
+          .right{
+            .title{
+              font-size: 22px;
+              color: #0f0f1a;
+              font-weight: 700;
 
+            }
+            .desc{
+              color: #6c757d;
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
   section {
     &.description {
       box-sizing: border-box;
@@ -416,7 +611,40 @@ export default {
     }
   }
 
-
+  .company{
+    padding: 3rem 0;
+    .container{
+      margin: 0 auto;
+      padding: 1rem;
+      .title{
+        max-width: 750px
+        font-size: 35px;
+        line-height: 40px;
+        color: #0F0F1A;
+        font-weight: 500;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 28px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        .img-box{
+          height: 64px;
+          padding: 0 15px;
+          margin-top: 20px;
+          .icon{
+            height: 100%
+            border-radius: 6px;
+          }
+        }
+      }
+    }
+  }
   footer{
     background-color: #F1F4F9;
     .container{
@@ -457,12 +685,26 @@ export default {
   }
 }
 @media (min-width: 576px){
-  .banner .container, .provide{
+  .banner .container,
+  .summary .container,
+  .company .container,
+  .provide{
     max-width: 540px;
+  }
+  .col-sm-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .col-sm-3 {
+    // flex: 0 0 25%;
+    // max-width: 25%;
   }
 }
 @media (min-width: 768px){
-  .banner .container, .provide{
+  .banner .container, 
+  .summary .container,
+  .company .container,
+  .provide{
     max-width: 720px;
   }
   .col-md-4{
@@ -483,7 +725,10 @@ export default {
   }
 }
 @media (min-width: 992px){
-  .banner .container, .provide{
+  .banner .container, 
+  .summary .container,
+  .company .container,
+  .provide{
     max-width: 960px;
     
   }
@@ -497,18 +742,27 @@ export default {
 }
 
 @media (min-width: 1200px){
-  .banner .container, .provide {
+  .banner .container, 
+  .summary .container,
+  .company .container,
+  .provide {
       max-width: 1140px;
   }
 }
 
 @media screen and (min-width: 1400px){
-  .banner .container, .provide {
+  .banner .container, 
+  .summary .container,
+  .company .container,
+  .provide {
       max-width: 1270px;
   }
 }
 @media screen and (min-width: 1600px){
-  .banner .container, .provide {
+  .banner .container, 
+  .summary .container,
+  .company .container,
+  .provide {
       max-width: 1470px;
   }
 }
