@@ -5,15 +5,14 @@
       <div class="container">
         <div class="left col-md-5">
           <h1>EZLINKER</h1>
-          <p>轻量级，高性能的物联网业务解决方案.</p>
+          <p>专业的物联网解决方案创造者.</p>
           <a class="btn" href="#">开始了解</a>
         </div>
-        <div class="right  col-md-7">
-          <img src="./images/main.jpg"/>
-        </div>
+
       </div>
     </div>
     </div>
+    <hr>
     <div class="provide">
       <div class="title-box">
         <div class="title">
@@ -28,8 +27,7 @@
           <div class="item-box">
             <div class="s-block p-lg-4 p-3">
               <div class="icon">
-                <!-- <img src="./s1.png"/> -->
-                <img src="./images/s1.png" alt="mixureSecure">
+                <img src="./images/3box/1.svg" width="90px">
               </div>
               <div class="title">
                 多平台安装
@@ -44,8 +42,7 @@
           <div class="item-box">
             <div class="s-block p-lg-4 p-3">
               <div class="icon">
-                <!-- <img src="./s1.png"/> -->
-                <img src="./images/s2.png" alt="mixureSecure">
+                <img src="./images/3box/2.svg" width="90px">
               </div>
               <div class="title">
                高性能网关
@@ -60,8 +57,7 @@
           <div class="item-box">
             <div class="s-block p-lg-4 p-3">
               <div class="icon">
-                <!-- <img src="./s1.png"/> -->
-                <img src="./images/s3.png" alt="mixureSecure">
+                <img src="./images/3box/3.svg" width="90px">
               </div>
               <div class="title">
                 容器化部署
@@ -78,88 +74,88 @@
       <div class="container">
         <div class="title-box">
           <div class="title">
-            Marketing solutions for your business
+            EZLINKER让应用部署更简单
           </div>
           <div class="desc">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+            让企业部署应用和解决方案更加简单，一键安装，自动化构建。
           </div>
         </div>
         <div class="list">
           <div class="item col-md-6 ">
             <div class="left col-sm-3">
-              <span class="icon iconfont icon-icon-test"></span>
+              <img class="icon img-company" src="./images/6box/1.svg" width="80px"/>
             </div>
             <div class="right col-sm-9 mt-sm-0">
               <div class="title">
-                Marketing
+                多协议支持
               </div>
               <div class="desc">
-                  It is a long established fact that a reader will be distracted by the readable content.
+                 支持MQTT，HTTP，COAP，MODBUS等主流物联网通信协议。
               </div>
             </div>
           </div>
           <div class="item col-md-6 ">
             <div class="left col-sm-3">
-              <span class="icon iconfont icon-icon-test"></span>
+              <img class="icon img-company" src="./images/6box/2.svg" width="80px"/>
             </div>
             <div class="right col-sm-9 mt-sm-0">
               <div class="title">
-                Marketing
+                SDK丰富
               </div>
               <div class="desc">
-                  It is a long established fact that a reader will be distracted by the readable content.
+                支持JAVA、C、C++、Python等主流编程语言，提供完善的开发SDK。
               </div>
             </div>
           </div>
           <div class="item col-md-6 ">
             <div class="left col-sm-3">
-              <span class="icon iconfont icon-icon-test"></span>
+              <img class="icon img-company" src="./images/6box/3.svg" width="80px"/>
             </div>
             <div class="right col-sm-9 mt-sm-0">
               <div class="title">
-                Marketing
+                平台开源
               </div>
               <div class="desc">
-                  It is a long established fact that a reader will be distracted by the readable content.
+                EZLINKER采取源代码公开的形式发布产品，鲤鱼安全评估和把控风险。
               </div>
             </div>
           </div>
           <div class="item col-md-6 ">
             <div class="left col-sm-3">
-              <span class="icon iconfont icon-icon-test"></span>
+              <img class="icon img-company" src="./images/6box/4.svg" width="80px"/>
             </div>
             <div class="right col-sm-9 mt-sm-0">
               <div class="title">
-                Marketing
+                设备开源
               </div>
               <div class="desc">
-                  It is a long established fact that a reader will be distracted by the readable content.
+                 我们同期发布了新的开源硬件项目，让用户能够自主把控产品的二次设计与开发。
               </div>
             </div>
           </div>
           <div class="item col-md-6 ">
             <div class="left col-sm-3">
-              <span class="icon iconfont icon-icon-test"></span>
+              <img class="icon img-company" src="./images/6box/5.svg" width="80px"/>
             </div>
             <div class="right col-sm-9 mt-sm-0">
               <div class="title">
-                Marketing
+                团队优势
               </div>
               <div class="desc">
-                  It is a long established fact that a reader will be distracted by the readable content.
+                 核心团队成员均为一线高级开发工程师，保证项目的可靠性和稳定性。
               </div>
             </div>
           </div>
           <div class="item col-md-6">
             <div class="left col-sm-3">
-              <span class="icon iconfont icon-icon-test"></span>
+              <img class="icon img-company" src="./images/6box/6.svg" width="80px"/>
             </div>
             <div class="right col-sm-9 mt-sm-0">
               <div class="title">
-                Marketing
+                生态完善
               </div>
               <div class="desc">
-                  It is a long established fact that a reader will be distracted by the readable content.
+                致力于构建一条从前端采集到后端服务再到用户端的完整生态链。
               </div>
             </div>
           </div>
@@ -168,55 +164,48 @@
     </div>
 
 
-    <!-- <section class="md-content-wrapper">
-      <Content />
-    </section> -->
+
     <div class="company">
       <div class="container">
         <div class="title">
-          Over 16,000 Companies that trust our amazing product
+          我们的合作伙伴
         </div>
         <div class="list">
           <div class="img-box">
-            <img class="icon" src="./images/company-logo.png" />
+            <img class="icon img-company" src="./images/logo-zhongfei.png" width="100px"/>
+            <h5>中飞科技</h5>
+          </div>
+        
+          <div class="img-box">
+            <img class="icon img-company" src="./images/zr-logo.png" width="100px" />
+            <h5>众瑞科技</h5>
           </div>
           <div class="img-box">
-            <img class="icon" src="./images/company-logo.png" />
+            <img class="icon img-company" src="./images/mg-logo.png"  width="100px"/>
+            <h5>米柜科技</h5>
           </div>
           <div class="img-box">
-            <img class="icon" src="./images/company-logo.png" />
-          </div>
-          <div class="img-box">
-            <img class="icon" src="./images/company-logo.png" />
-          </div>
-          <div class="img-box">
-            <img class="icon" src="./images/company-logo.png" />
-          </div>
-          <div class="img-box">
-            <img class="icon" src="./images/company-logo.png" />
+            <img class="icon img-company" src="./images/sl-logo.svg"  width="100px"/>
+            <h5>闪麟科技</h5>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <!-- <p>EZLINKER团队</p>
-      <p>
-        联系我们:
-        <a href="ezlinker@qq.com">ezlinker@qq.com</a>.
-      </p> -->
+    <footer class="fo">
+
       <div class="container">
         <div class="col col-md-6">
           <div class="title">
           联系我们
           </div>
           <div class="item">
-            <span class="name">地址</span> :
+            <span class="name">地址</span> :福建省福州市仓山区骊福广场二楼
           </div>
           <div class="item">
-            <span class="name">电话</span> :
+            <span class="name">电话</span> :18059150204
           </div>
           <div class="item">
-            <span class="name">邮箱</span> : info@EZLINKER.com
+            <span class="name">邮箱</span> :info@EZLINKER.com
           </div>
         </div>
         <div class="col link col-md-4">
@@ -303,6 +292,13 @@ export default {
 <style lang="stylus" scoped>
 @import  "./css/iconfont.css";
 
+
+
+.img-company {
+         -webkit-filter: grayscale(1); /* Webkit */
+         filter: gray; /* IE6-9 */  
+         filter: grayscale(1); /* W3C */
+}
 .card {
   cursor: pointer;
   margin-top: 10px;
@@ -330,37 +326,46 @@ export default {
 .card img {
   width: 100%;
 }
-
+.fo{
+  .container{
+  background-color :#FFFFEE;
+  }
+}
 .home-page-one-wrapper {
+
 
   .banner{
     padding: 58px 0 48px;
-    background-color: #fafafa;
-    
+    height :700px;
+    background-image :url("./images/bg.jpg");
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
     .container{
+     
       margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
       .left{
-        position: relative;
-        margin-top: 98px;
+        text-align :center;
+        margin-left :33%;
+        margin-top: 250px;
         h1{
-          margin:0;
-          font-size: 40px;
+          font-size: 70px;
           line-height: 46px;
-          color: #0f0f1a;
+          color: #0099FF;
           font-weight: 700;
         }
         p{
           
-          color: #6c757d;
+          color: #00FF99;
           font-size: 16px;
           line-height: 24px;
           margin: 16px 0 48px;
         }
         .btn{
+          color:#FFFFFF;
           padding: 14px 22px;
-          background-color: #151965;
+          background-color: #33CC99;
           border-color: #151965;
           display: inline-block;
           font-weight: 400;
@@ -468,20 +473,7 @@ export default {
           border-radius: 6px;
           display: flex;
           justify-content: space-around;
-          &:hover{
-            box-shadow: 0px 0px 8px rgba(53, 54, 102, 0.2);
-            .left{
-              background-color: #151965
-              .icon{
-                color: white;
-              }
-            }
-            .right{
-              .title{
-                color: #ff8556;
-              }
-            }
-          }
+
           .left{
         
             background: #fff;

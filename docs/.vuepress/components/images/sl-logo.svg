@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="202" width="202" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(-45.66287612915039 96.65849304199219,50.73810958862305) " id="svg_2" d="m63.76382,42.738111l65.789348,0l0,0c8.618592,0 15.605324,3.581723 15.605324,8c0,4.418275 -6.986736,7.999997 -15.605324,7.999997l-65.789348,0l0,0c-8.618582,0 -15.605324,-3.581721 -15.605324,-7.999997c0,-4.418279 6.986742,-8 15.605324,-8z" stroke-width="1.5" stroke="#000" fill="#000000"/>
+  <path transform="rotate(-45.66287612915039 100.65849304199217,138.7381134033203) " id="svg_3" d="m67.76382,130.73811l65.78935,0l0,0c8.61859,0 15.60532,3.58172 15.60532,8c0,4.41828 -6.98673,8 -15.60532,8l-65.78935,0l0,0c-8.61858,0 -15.60532,-3.58172 -15.60532,-8c0,-4.41828 6.98674,-8 15.60532,-8z" stroke-width="1.5" stroke="#000" fill="#000000"/>
+  <line transform="rotate(-19.190561294555664 101.3000030517578,94) " stroke-linecap="null" stroke-linejoin="null" id="svg_5" y2="107.5" x2="112.3" y1="80.5" x1="90.3" fill-opacity="null" stroke-opacity="null" stroke-width="20" stroke="#000" fill="none"/>
+ </g>
+</svg>
