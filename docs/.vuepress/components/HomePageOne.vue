@@ -326,11 +326,13 @@ export default {
 .card img {
   width: 100%;
 }
+
 .fo{
   .container{
-  background-color :#FFFFEE;
+    background-color :#FFFFEE;
   }
 }
+
 .home-page-one-wrapper {
 
 
@@ -351,9 +353,12 @@ export default {
         margin-top: 250px;
         h1{
           font-size: 70px;
-          line-height: 46px;
-          color: #0099FF;
+          line-height: 100px;
+          height 100px;
+          color: #dddddd;
           font-weight: 700;
+          background : rgba(12,23,34,0.5);
+
         }
         p{
           
