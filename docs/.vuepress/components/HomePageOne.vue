@@ -191,7 +191,7 @@
         </div>
       </div>
     </div>
-    <footer class="fo">
+    <footer>
 
       <div class="container">
         <div class="col col-md-6">
