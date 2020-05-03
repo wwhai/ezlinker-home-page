@@ -59,11 +59,11 @@ module.exports = {
         ],
         '@vuepress-reco/extract-code',
         'flowchart', ['sitemap', {
-            hostname: 'https://vuepress-theme-reco.recoluan.com'
+            hostname: 'https://www.ezlinker.cn'
         }],
         ['@vuepress-reco/rss', {
-            site_url: 'https://vuepress-theme-reco.recoluan.com',
-            copyright: ''
+            site_url: 'https://www.ezlinker.cn',
+            copyright: 'EZLINKER'
         }],
         require('./plugins/notification/index')
     ]

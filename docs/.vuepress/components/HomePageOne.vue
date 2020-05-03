@@ -327,18 +327,12 @@ export default {
   width: 100%;
 }
 
-.fo{
-  .container{
-    background-color :#FFFFEE;
-  }
-}
-
 .home-page-one-wrapper {
 
 
   .banner{
-    padding: 58px 0 48px;
-    height :700px;
+    padding: 58px 0 48px 20px;
+    height :800px;
     background-image :url("./images/bg.jpg");
     -moz-background-size:100% 100%;
     background-size:100% 100%;
@@ -586,8 +580,11 @@ export default {
     background-color: #222527;
     
     .container{
-      margin:0 74px;
-      padding: 16px 15px;
+      margin:0 70px 0 70px;
+      padding-left :10px;
+      padding-right :10px;
+      padding-top :30px;
+      padding-bottom :50px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
