@@ -1,3 +1,3 @@
 # Documentation
 
-EZLinker官网
+EZLinker
