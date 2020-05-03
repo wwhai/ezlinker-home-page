@@ -583,7 +583,8 @@ export default {
     }
   }
   footer{
-    background-color: #F1F4F9;
+    background-color: #222527;
+    
     .container{
       margin:0 74px;
       padding: 16px 15px;
@@ -597,13 +598,15 @@ export default {
         .title{
           
           font-size: 20px;
-          color: #151965; 
+          // color: #151965; 
+          color: #eee;
           margin-bottom: 15px;
         }
         .item{
           font-size: 16px;
           margin-bottom: 5px;
-          color: #6c757d;
+          // color: #6c757d;
+          color: #eee;
           .name {
             font-weight: bold;
           }
